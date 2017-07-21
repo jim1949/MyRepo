@@ -130,18 +130,14 @@ include_directories(
 ## either from message generation or dynamic reconfigure
 # add_dependencies(jimmy_tutorials ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-## Declare a C++ executable
-# add_executable(jimmy_tutorials_node src/jimmy_tutorials_node.cpp)
 
-## Add cmake target dependencies of the executable
-## same as for the library above
-# add_dependencies(jimmy_tutorials_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-## Specify libraries to link a library or executable target against
-# target_link_libraries(jimmy_tutorials_node
-#   ${catkin_LIBRARIES}
-# )
-
+add_executable(add_two_ints_server src/add_two_ints_server.cpp)  
+target_link_libraries(add_two_ints_server ${catkin_LIBRARIES})  
+add_dependencies(add_two_ints_server jimmy_tutorials_gencpp)  
+  
+add_executable(add_two_ints_client src/add_two_ints_client.cpp)  
+target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})  
+add_dependencies(add_two_ints_client jimmy_tutorials_gencpp)
 #############
 ## Install ##
 #############
