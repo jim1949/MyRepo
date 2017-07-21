@@ -1,0 +1,8 @@
+prefix=/home/jimmy/github/MyRepo/testbot_ws/devel
+
+Name: notice
+Description: Description of notice
+Version: 0.0.0
+Cflags: -I/home/jimmy/github/MyRepo/testbot_ws/devel/include -I/home/jimmy/github/MyRepo/testbot_ws/src/notice/include
+Libs: -L/home/jimmy/github/MyRepo/testbot_ws/devel/lib -lnotice
+Requires: roscpp rospy std_msgs geometry_msgs message_runtime

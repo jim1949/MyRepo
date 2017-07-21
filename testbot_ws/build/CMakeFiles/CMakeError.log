@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1275887130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1275887130.dir/build.make CMakeFiles/cmTryCompileExec1275887130.dir/build
+make[1]: 正在进入目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1275887130.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1275887130.dir/CheckSymbolExists.c.o   -c /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1275887130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1275887130.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1275887130.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1275887130 -rdynamic 
+CMakeFiles/cmTryCompileExec1275887130.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1275887130] 错误 1
+make: *** [cmTryCompileExec1275887130/fast] 错误 2
+
+File /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3412510288/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3412510288.dir/build.make CMakeFiles/cmTryCompileExec3412510288.dir/build
+make[1]: 正在进入目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3412510288.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3412510288.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3412510288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3412510288.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3412510288.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3412510288 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3412510288] 错误 1
+make[1]:正在离开目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3412510288/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1082082646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1082082646.dir/build.make CMakeFiles/cmTryCompileExec1082082646.dir/build
+make[1]: 正在进入目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1082082646.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1082082646.dir/CheckSymbolExists.c.o   -c /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1082082646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1082082646.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1082082646.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1082082646 -rdynamic 
+CMakeFiles/cmTryCompileExec1082082646.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1082082646] 错误 1
+make: *** [cmTryCompileExec1082082646/fast] 错误 2
+
+File /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3890497016/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3890497016.dir/build.make CMakeFiles/cmTryCompileExec3890497016.dir/build
+make[1]: 正在进入目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3890497016.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3890497016.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3890497016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3890497016.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3890497016.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3890497016 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3890497016] 错误 1
+make[1]:正在离开目录 `/home/jimmy/github/MyRepo/testbot_ws/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3890497016/fast] 错误 2
+
+

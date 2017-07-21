@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.ycm_extra_conf.py	../.ycm_extra_conf.py	1;"	kind:file	line:1
+CATKIN_MARKER_FILE	../devel/_setup_util.py	/^CATKIN_MARKER_FILE = '.catkin'$/;"	kind:variable	line:46
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^        CMAKE_PREFIX_PATH = '\/home\/jimmy\/github\/MyRepo\/testbot_ws\/devel;\/home\/jimmy\/image_transport_ws\/devel;\/home\/jimmy\/zeus_ros\/devel;\/home\/jimmy\/android_interactions\/devel;\/home\/jimmy\/android_core\/devel;\/home\/jimmy\/dashgo_ws\/devel;\/home\/jimmy\/jimmy_catkin_ws\/devel;\/home\/jimmy\/catkin_ws\/devel;\/opt\/ros\/indigo'.split(';')$/;"	kind:variable	line:266
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^        CMAKE_PREFIX_PATH = os.pathsep.join(CMAKE_PREFIX_PATH)$/;"	kind:variable	line:271
+DirectoryOfThisScript	../.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	kind:function	line:36
+ENV_VAR_SUBFOLDERS	../devel/_setup_util.py	/^ENV_VAR_SUBFOLDERS = {$/;"	kind:variable	line:53
+FlagsForFile	../.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	kind:function	line:88
+GetCompilationInfoForFile	../.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	kind:function	line:74
+IS_DARWIN	../devel/_setup_util.py	/^IS_DARWIN = (system == 'Darwin')$/;"	kind:variable	line:49
+IS_WINDOWS	../devel/_setup_util.py	/^IS_WINDOWS = (system == 'Windows')$/;"	kind:variable	line:50
+IsHeaderFile	../.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	kind:function	line:69
+MakeRelativePathsInFlagsAbsolute	../.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	kind:function	line:40
+SOURCE_EXTENSIONS	../.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c' ]$/;"	kind:variable	line:34
+__init__	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:21
+__init__	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:78
+__init__	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:19
+__init__	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:154
+__init__	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def __init__(self, *args, **kwds):$/;"	kind:function	line:28
+__init__.py	../devel/lib/python2.7/dist-packages/notice/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/notice/msg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/notice/srv/__init__.py	1;"	kind:file	line:1
+__slots__	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  __slots__ = ['speed','battery','millage','emergencyStop','charge']$/;"	kind:variable	line:18
+__slots__	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  __slots__ = ['head','noticeTypeLevel','noticeType','noticeDataFields','ExpectedPosition','worldPosition']$/;"	kind:variable	line:75
+__slots__	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  __slots__ = ['laserConnection','SonarConnection','MCUConnection']$/;"	kind:variable	line:16
+__slots__	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  __slots__ = ['count']$/;"	kind:variable	line:151
+__slots__	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  __slots__ = ['words']$/;"	kind:variable	line:25
+_device_status.py	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	1;"	kind:file	line:1
+_get_types	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def _get_types(self):$/;"	kind:function	line:55
+_get_types	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def _get_types(self):$/;"	kind:function	line:115
+_get_types	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def _get_types(self):$/;"	kind:function	line:47
+_get_types	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def _get_types(self):$/;"	kind:function	line:176
+_get_types	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def _get_types(self):$/;"	kind:function	line:50
+_get_workspaces	../devel/_setup_util.py	/^def _get_workspaces(environ, include_fuerte=False, include_non_existing=False):$/;"	kind:function	line:115
+_has_header	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:12
+_has_header	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:14
+_has_header	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:12
+_has_header	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:12
+_has_header	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	kind:variable	line:147
+_md5sum	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  _md5sum = "1aeaee6c26e1c6beeee5f561cec487dc"$/;"	kind:variable	line:10
+_md5sum	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  _md5sum = "13261ca54d3655f9b32e5b0b779d7089"$/;"	kind:variable	line:12
+_md5sum	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  _md5sum = "597f5922ff244034653f9d597018a242"$/;"	kind:variable	line:10
+_md5sum	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _md5sum = "6f897d3845272d18053a750c1cfb862a"$/;"	kind:variable	line:10
+_md5sum	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _md5sum = "ac8b22eb02c1f433e0a55ee9aac59a18"$/;"	kind:variable	line:145
+_md5sum	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _md5sum = '58903d21a3264f3408d79ba79e9f7c7e'$/;"	kind:variable	line:236
+_move.py	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	1;"	kind:file	line:1
+_nav_status.py	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	1;"	kind:file	line:1
+_parse_arguments	../devel/_setup_util.py	/^def _parse_arguments(args=None):$/;"	kind:function	line:251
+_prefix_env_variable	../devel/_setup_util.py	/^def _prefix_env_variable(environ, name, paths, subfolders):$/;"	kind:function	line:150
+_request_class	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _request_class  = moveRequest$/;"	kind:variable	line:237
+_response_class	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _response_class = moveResponse$/;"	kind:variable	line:238
+_rollback_env_variable	../devel/_setup_util.py	/^def _rollback_env_variable(environ, name, subfolders):$/;"	kind:function	line:84
+_setup_util.py	../devel/_setup_util.py	1;"	kind:file	line:1
+_slot_types	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  _slot_types = ['float32','int8','int64','bool','bool']$/;"	kind:variable	line:19
+_slot_types	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  _slot_types = ['std_msgs\/Header','string','string','string','geometry_msgs\/Pose2D','geometry_msgs\/Pose']$/;"	kind:variable	line:76
+_slot_types	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  _slot_types = ['bool','int16[8]','bool']$/;"	kind:variable	line:17
+_slot_types	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _slot_types = ['string']$/;"	kind:variable	line:26
+_slot_types	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _slot_types = ['uint32']$/;"	kind:variable	line:152
+_struct_10d	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^_struct_10d = struct.Struct("<10d")$/;"	kind:variable	line:346
+_struct_3I	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^_struct_3I = struct.Struct("<3I")$/;"	kind:variable	line:345
+_struct_8h	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^_struct_8h = struct.Struct("<8h")$/;"	kind:variable	line:125
+_struct_B	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^_struct_B = struct.Struct("<B")$/;"	kind:variable	line:126
+_struct_I	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:120
+_struct_I	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:344
+_struct_I	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:124
+_struct_I	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:135
+_struct_I	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^_struct_I = genpy.struct_I$/;"	kind:variable	line:233
+_struct_fbq2B	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^_struct_fbq2B = struct.Struct("<fbq2B")$/;"	kind:variable	line:121
+_system_health_status.py	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	1;"	kind:file	line:1
+_type	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  _type = "notice\/device_status"$/;"	kind:variable	line:11
+_type	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  _type = "notice\/nav_status"$/;"	kind:variable	line:13
+_type	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  _type = "notice\/system_health_status"$/;"	kind:variable	line:11
+_type	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _type          = 'notice\/move'$/;"	kind:variable	line:235
+_type	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _type = "notice\/moveRequest"$/;"	kind:variable	line:11
+_type	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  _type = "notice\/moveResponse"$/;"	kind:variable	line:146
+args	../devel/_setup_util.py	/^            args = _parse_arguments()$/;"	kind:variable	line:260
+assignment	../devel/_setup_util.py	/^def assignment(key, value):$/;"	kind:function	line:176
+base_path	../devel/_setup_util.py	/^        base_path = os.path.dirname(__file__)$/;"	kind:variable	line:268
+comment	../devel/_setup_util.py	/^def comment(msg):$/;"	kind:function	line:183
+compilation_database_folder	../.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	kind:variable	line:27
+database	../.ycm_extra_conf.py	/^  database = None$/;"	kind:variable	line:32
+database	../.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	kind:variable	line:30
+deserialize	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def deserialize(self, str):$/;"	kind:function	line:72
+deserialize	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def deserialize(self, str):$/;"	kind:function	line:170
+deserialize	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def deserialize(self, str):$/;"	kind:function	line:65
+deserialize	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def deserialize(self, str):$/;"	kind:function	line:192
+deserialize	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def deserialize(self, str):$/;"	kind:function	line:74
+deserialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:102
+deserialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:282
+deserialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:101
+deserialize_numpy	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:114
+deserialize_numpy	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def deserialize_numpy(self, str, numpy):$/;"	kind:function	line:218
+device_status	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^class device_status(genpy.Message):$/;"	kind:class	line:9
+environ	../devel/_setup_util.py	/^        environ = dict(os.environ)$/;"	kind:variable	line:273
+find_env_hooks	../devel/_setup_util.py	/^def find_env_hooks(environ, cmake_prefix_path):$/;"	kind:function	line:199
+flags	../.ycm_extra_conf.py	/^flags = [$/;"	kind:variable	line:6
+lines	../devel/_setup_util.py	/^        lines = []$/;"	kind:variable	line:274
+move	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^class move(object):$/;"	kind:class	line:234
+moveRequest	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^class moveRequest(genpy.Message):$/;"	kind:class	line:9
+moveResponse	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^class moveResponse(genpy.Message):$/;"	kind:class	line:144
+nav_status	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^class nav_status(genpy.Message):$/;"	kind:class	line:11
+prepend	../devel/_setup_util.py	/^def prepend(environ, key, prefix):$/;"	kind:function	line:190
+prepend_env_variables	../devel/_setup_util.py	/^def prepend_env_variables(environ, env_var_subfolders, workspaces):$/;"	kind:function	line:130
+python3	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+python3	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+python3	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+python3	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:139
+python3	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	kind:variable	line:4
+rollback_env_variables	../devel/_setup_util.py	/^def rollback_env_variables(environ, env_var_subfolders):$/;"	kind:function	line:63
+serialize	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def serialize(self, buff):$/;"	kind:function	line:61
+serialize	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def serialize(self, buff):$/;"	kind:function	line:121
+serialize	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def serialize(self, buff):$/;"	kind:function	line:53
+serialize	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def serialize(self, buff):$/;"	kind:function	line:182
+serialize	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def serialize(self, buff):$/;"	kind:function	line:56
+serialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_device_status.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:90
+serialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_nav_status.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:232
+serialize_numpy	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:88
+serialize_numpy	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:207
+serialize_numpy	../devel/lib/python2.7/dist-packages/notice/srv/_move.py	/^  def serialize_numpy(self, buff, numpy):$/;"	kind:function	line:95
+service.py	../src/notice/src/service.py	1;"	kind:file	line:1
+system	../devel/_setup_util.py	/^system = platform.system()$/;"	kind:variable	line:48
+system_health_status	../devel/lib/python2.7/dist-packages/notice/msg/_system_health_status.py	/^class system_health_status(genpy.Message):$/;"	kind:class	line:9

@@ -1,0 +1,8 @@
+prefix=/home/jimmy/github/MyRepo/testbot_ws/devel
+
+Name: shell_node
+Description: Description of shell_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jimmy/github/MyRepo/testbot_ws/devel/lib 
+Requires: 
